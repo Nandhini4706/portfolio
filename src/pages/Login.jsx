@@ -1,11 +1,11 @@
 import React from 'react'
-
+import Photo from "../assets/nandhu.jpg"
 const Login = (props) => {
     console.log(props.props)
   return (
        
       <div className='bg-black '>
-         <img src="nandhu.jpg" 
+         <img src={Photo}
         className=' hover:scale-110 w-40 h-40 rounded-full float-right p-5' />
      <h1 className=' pb-5 pt-9 text-white text-5xl font-bold pl-5'>Hi, I'm Nandhini </h1>
    
